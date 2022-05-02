@@ -2654,7 +2654,13 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		overflow: hidden;
 	}
+		
+		ul.actions:hover {
+			overflow-y: hidden;
+			overflow-x: auto;
+		}
 
 		ul.actions li {
 			padding: 0 0 0 1em;
